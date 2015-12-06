@@ -1,7 +1,5 @@
 # Podcasts da Bel
 
-[![Join the chat at https://gitter.im/filipebezerra/Podcasts-Da-Bel](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/filipebezerra/Podcasts-Da-Bel?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 **Atenção, este aplicativo se encontra em desenvolvimento e qualquer erro deve ser reportado no [rastreador de problemas][5]. Obrigado!**
 
 Todos os Podcasts da [Bel Pesce][1] num só lugar. Com este aplicativo você acompanha no celular os podcasts de todos canais da Bel.
