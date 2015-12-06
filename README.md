@@ -10,6 +10,7 @@ Os canais de podcast da Bel Pesce podem ser encontrados no site do [Podcast da B
 ![4]
 
 # Live
+<a href="https://appetize.io/app/dkmaqgkbx3u3zr3brhwdkrcve4?device=nexus5&scale=75&orientation=portrait&osVersion=6.0" target="_blank"><img src="./art/live/Appetize-Nexus5.PNG" heigth="320" width="163"></a>
 
 # Planejamento (Em desenvolvimento)
 O [rastreador de problemas][5] mostra uma lista de características que são planejadas no momento.
