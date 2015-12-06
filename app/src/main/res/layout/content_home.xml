@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:clipToPadding="false"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_home"
+    tools:context=".home.HomeActivity"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.v7.widget.CardView
+            style="@style/CardStyle"
+            android:layout_marginTop="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="1"
+                    >
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        >
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            app:typeface="roboto_slab_regular"
+                            android:text="Usuário:"
+                            />
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            android:id="@+id/user_name"
+                            app:typeface="roboto_slab_regular"
+                            tools:text="Bel Pesce"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        >
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            app:typeface="roboto_slab_regular"
+                            android:text="Nome:"
+                            />
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            android:id="@+id/full_name"
+                            app:typeface="roboto_slab_regular"
+                            tools:text="Isabel Pesce"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        >
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            app:typeface="roboto_slab_regular"
+                            android:text="País:"
+                            />
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            android:id="@+id/country"
+                            app:typeface="roboto_slab_regular"
+                            tools:text="Brasil"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        >
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            app:typeface="roboto_slab_regular"
+                            android:text="Cidade:"
+                            />
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            android:id="@+id/city"
+                            app:typeface="roboto_slab_regular"
+                            tools:text="São Paulo"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        >
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            app:typeface="roboto_slab_regular"
+                            android:text="Mini bio:"
+                            />
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            android:id="@+id/bio"
+                            app:typeface="roboto_slab_regular"
+                            tools:text="Empreendedora, escritora e sonhadora. Fundadora da FazINOVA. Uma das 100 Pessoas Mais Influentes do Brasil"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        >
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            app:typeface="roboto_slab_regular"
+                            android:text="Site:"
+                            />
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            android:id="@+id/site"
+                            app:typeface="roboto_slab_regular"
+                            tools:text="http://www.belpesce.com.br"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        >
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            app:typeface="roboto_slab_regular"
+                            android:text="Perfil:"
+                            />
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            android:id="@+id/profile"
+                            app:typeface="roboto_slab_regular"
+                            tools:text="http://soundcloud.com/belpesce"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        >
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            app:typeface="roboto_slab_regular"
+                            android:text="Faixas:"
+                            />
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            android:id="@+id/track_count"
+                            app:typeface="roboto_slab_regular"
+                            tools:text="90"
+                            />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        >
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            android:layout_marginRight="8dp"
+                            android:layout_marginEnd="8dp"
+                            app:typeface="roboto_slab_regular"
+                            android:text="Seguidores:"
+                            />
+
+                        <com.devspark.robototextview.widget.RobotoTextView
+                            android:id="@+id/followers_count"
+                            app:typeface="roboto_slab_regular"
+                            tools:text="506"
+                            />
+                    </TableRow>
+
+                </TableLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+
+                    <com.devspark.robototextview.widget.RobotoButton
+                        android:id="@+id/visit_website"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:text="Visitar Site"
+                        app:typeface="roboto_slab_regular"
+                        />
+
+                    <com.devspark.robototextview.widget.RobotoButton
+                        android:id="@+id/view_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:text="Ver Perfil"
+                        app:typeface="roboto_slab_regular"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <com.github.filipebezerra.podcastsdabel.widgets.ColorCircleView
+                    android:id="@+id/status"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_gravity="top|end"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    />
+
+            </FrameLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </FrameLayout>
+
+</android.support.v4.widget.NestedScrollView>

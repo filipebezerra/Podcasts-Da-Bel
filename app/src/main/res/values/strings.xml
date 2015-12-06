@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Podcasts da Bel</string>
+
+    <string name="navigation_drawer_open">Abrir Menu Navegação</string>
+    <string name="navigation_drawer_close">Fechar Menu Navegação</string>
+    <string name="nav_about">Sobre a Bel</string>
+    <string name="nav_podcast">Podcast</string>
+
+    <string-array name="playlists">
+        <item>Podcast da Bel</item>
+        <item>A Menina do Vale</item>
+        <item>A Menina do Vale 2</item>
+    </string-array>
+
+    <string-array name="playlists_ids">
+        <item>155377696</item>
+        <item>90866810</item>
+        <item>90874701</item>
+    </string-array>
+    <string name="title_activity_podcast">Podcast</string>
+</resources>
