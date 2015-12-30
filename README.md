@@ -1,6 +1,6 @@
 # Podcasts da Bel
 
-**Atenção, este aplicativo se encontra em desenvolvimento e qualquer erro deve ser reportado no [rastreador de problemas][5]. Obrigado!**
+** Atenção, este aplicativo encontra-se em desenvolvimento e qualquer erro deve ser reportado no [rastreador de problemas][5]. Obrigado!**
 
 Todos os Podcasts da [Bel Pesce][1] num só lugar. Com este aplicativo você acompanha no celular os podcasts de todos canais da Bel.
 
