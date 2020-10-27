@@ -19,7 +19,7 @@ O [rastreador de problemas][5] mostra uma lista de características que são pla
 A [wiki][6] contém detalhes de como usar este aplicativo e as funcionalidades fornecidas atualmente.
 
 # Projeto em desenvolvimento por
-* Filipe Bezerra - http://filipebezerra.github.io - filipebzerra@gmail.com
+* Filipe Bezerra - https://about.me/filipebezerra - filipebzerra@gmail.com
 
 [1]: http://belpesce.com.br/
 [2]: http://podcastdabel.com.br/
